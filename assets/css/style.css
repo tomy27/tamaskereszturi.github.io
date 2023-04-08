@@ -558,8 +558,8 @@ section {
 
 @media (max-width: 450px) {
   .portfolio .portfolio-wrap {
-    width: 350px;
-    height: 175px;
+    width: 320px;
+    height: 160px;
   }
 }
 
@@ -712,6 +712,8 @@ section {
 /*----Contact-------------------------------------------------------*/
 #contact {
   padding-top: 60px;
+  display: block;
+  z-index: 100;
 }
 
 .section-title-contact {
@@ -747,6 +749,47 @@ section {
   font-size: 22px;
   font-weight: 600;
   color: #222222;
+}
+
+.btn-contact {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  z-index: 100;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  box-shadow: 10px 10px;
+  background: linear-gradient(-45deg, #f63d04, #f7e705ad, #0daae3, #13ee93);
+	background-size: 400% 400%;
+	animation: altgradient 20s ease infinite;
+}
+
+@keyframes altgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media (max-width: 600px) {
+  .btn-contact {
+    font-size: 12px;
+  }
+}
+
+#hero .btn-contact:hover {
+  background: #3dc8b7;
 }
 
 /*----Footer-------------------------------------------------------*/

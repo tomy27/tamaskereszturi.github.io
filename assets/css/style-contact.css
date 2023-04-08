@@ -29,7 +29,7 @@ body{
 	overflow: hidden;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1100px) {
 	.section-center {
 		display: none;
 	}
@@ -45,6 +45,12 @@ body{
 	z-index: 1;
 	border-top: 2px solid #030308;
 	background-color: #fee300;
+}
+
+@media (max-width: 1100px) {
+	.section-center-bg {
+		display: none;
+	}
 }
 
 .section-up{
