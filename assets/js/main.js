@@ -280,6 +280,14 @@
           'type': 'image',
         },
         {
+          'href': 'assets/img/portfolio/noteup2b.png',
+          'type': 'image',
+        },
+        {
+          'href': 'assets/img/portfolio/noteup3.png',
+          'type': 'image',
+        },
+        {
           'href': 'assets/img/portfolio/vba6.png',
           'type': 'image',
         },
