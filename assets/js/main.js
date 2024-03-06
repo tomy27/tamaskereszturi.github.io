@@ -252,6 +252,10 @@
   const imageGallery = GLightbox({
     elements: [
         {
+            'href': 'assets/img/portfolio/suitehero1.png',
+            'type': 'image',
+        },
+        {
             'href': 'assets/img/portfolio/esghub1.png',
             'type': 'image',
         },
